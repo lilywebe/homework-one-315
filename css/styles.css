@@ -153,4 +153,16 @@ footer {
   margin-top: 100px;
 }
 
+.non-home-hero {
+  min-height: 500px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #50647c;
+}
+.non-home-hero__content {
+  text-align: center;
+  padding-top: 150px;
+}
+
 /*# sourceMappingURL=styles.css.map */
