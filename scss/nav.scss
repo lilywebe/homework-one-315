@@ -1,0 +1,41 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:100px;
+    background-color: black;
+    
+
+    &__logo{
+        height:100%;
+        margin-left:20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        img{
+            height:60%;
+        }
+        
+    }
+
+    &__links{
+        margin-right:20px;
+        width:500px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        a{
+            color:#50647c;
+            
+            text-decoration:none;
+
+            &:hover{
+                color:red;
+                
+            }
+        }
+    }
+    
+}
