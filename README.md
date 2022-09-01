@@ -1,5 +1,7 @@
 # homework-one-315
+
 https://in-info-web4.informatics.iupui.edu/~lilywebe/homework-one-315/index.html
+
 You must create a very small example of the BEM Model if you feel comfortable with and understand this model
 You must create an entire website with a minimum of 4 pages that will show that you understand the BEM Model, if you do, if not style like normal. 
 Your pages must look professional and have at least 4 sections per page. Navigation and footer can be part of the 4 sections. 
