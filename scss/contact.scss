@@ -1,0 +1,75 @@
+.contact-info{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width:60%;
+    margin: 0 auto;
+    padding-top:100px;
+    padding-bottom:100px;
+   
+    
+
+    .contact-info-text{
+
+        max-width:40%;
+    margin:0 auto;
+    text-align:center;
+    margin-top:100px;
+    margin-bottom:100px;
+
+    }
+
+    &__map{
+        background-image: url('../images/map.png');
+        height:350px;
+        width:350px;
+        background-position: center;
+    }
+}
+
+.visit-us{
+
+    
+
+   
+
+    &__form{
+        
+        h2{
+            text-align:center;
+        }
+
+        form{
+            display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+        input{
+            margin:10px;
+            text-align: left;
+            border-width: 3px;
+            border-radius: 5px;
+            padding:10px;
+        }
+
+        textarea{
+            margin:10px;
+            text-align: left;
+            border-width: 3px;
+            border-radius: 5px;
+        }
+
+        button{
+            margin-top:20px;
+            width:250px;
+            height:25px;
+            border-width: 3px;
+            border-radius: 5px;
+        }
+
+        }
+
+    }
+}

@@ -1,0 +1,86 @@
+.about-company{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top:100px;
+    max-width:90%;
+    margin:0 auto;
+    
+    &__img{
+        background-image:url('../images/home-about-image.jpg');
+        height:200px;
+        width:200px;
+    }
+
+    &__content{
+        max-width:30%;
+        text-align:center;
+    }
+}
+
+.about-gym{
+
+    max-width:90%;
+    margin:0 auto;
+    padding-top:200px;
+
+
+    &__content{
+        text-align:center;
+        max-width:40%;
+        margin:0 auto;
+
+    }
+
+}
+
+.about-membership{
+
+    max-width:90%;
+    padding-top:150px;
+    h2{
+        text-align:center;
+        padding-left:125px;
+    }
+    
+
+
+
+}
+
+.membership-tiers{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width:90%;
+    margin: 0 auto;
+    padding-top:50px;
+    padding-bottom:100px;
+
+    &__item{
+        padding:20px;
+        padding-top:40px;
+        border-width:5px;
+        border-style:solid;
+        border-radius:10px;
+    border-color:#50647c;
+        height:300px;
+        width:200px;
+        text-align:center;
+
+        .tier-name{
+            font-size: 30px;
+            padding-bottom:20px;
+        }
+
+        .tier-price{
+            color:red;
+            font-size:25px;
+            padding-top:20px;
+            font-weight:bolder;
+        }
+    }
+
+}
+

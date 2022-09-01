@@ -6,6 +6,7 @@
 
 html, body {
   height: 100%;
+  font-family: "Fjalla One";
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -87,7 +88,7 @@ h1 {
 
 footer {
   height: 200px;
-  background-color: #50647c;
+  background-color: black;
 }
 
 .footer {
@@ -106,7 +107,11 @@ footer {
   font-size: 30px;
 }
 .footer__brands a {
-  color: white;
+  color: #50647c;
+  text-decoration: none;
+}
+.footer__brands a:hover {
+  color: red;
 }
 .footer__contact {
   min-width: 30%;
@@ -114,10 +119,11 @@ footer {
   align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
-  color: white;
+  color: #50647c;
 }
 .footer__contact p {
   margin-bottom: 0px;
+  padding-bottom: 5px;
 }
 .footer__navigate {
   min-width: 30%;
@@ -127,11 +133,15 @@ footer {
   align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
-  color: white;
+  color: #50647c;
 }
 .footer__navigate a {
+  color: #50647c;
   text-decoration: none;
-  color: white;
+  padding-bottom: 5px;
+}
+.footer__navigate a:hover {
+  color: red;
 }
 
 .amenities {
@@ -146,6 +156,14 @@ footer {
   height: 200px;
   width: 200px;
   background-color: red;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-width: 1px;
+  border-radius: 20px;
 }
 
 .amenities-title {
@@ -154,7 +172,7 @@ footer {
 }
 
 .non-home-hero {
-  min-height: 500px;
+  min-height: 100px;
   width: 90%;
   margin: 0 auto;
   margin-top: 50px;
@@ -162,7 +180,181 @@ footer {
 }
 .non-home-hero__content {
   text-align: center;
+}
+
+.about-company {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 100px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.about-company__img {
+  background-image: url("../images/home-about-image.jpg");
+  height: 200px;
+  width: 200px;
+}
+.about-company__content {
+  max-width: 30%;
+  text-align: center;
+}
+
+.about-gym {
+  max-width: 90%;
+  margin: 0 auto;
+  padding-top: 200px;
+}
+.about-gym__content {
+  text-align: center;
+  max-width: 40%;
+  margin: 0 auto;
+}
+
+.about-membership {
+  max-width: 90%;
   padding-top: 150px;
+}
+.about-membership h2 {
+  text-align: center;
+  padding-left: 125px;
+}
+
+.membership-tiers {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 90%;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.membership-tiers__item {
+  padding: 20px;
+  padding-top: 40px;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #50647c;
+  height: 300px;
+  width: 200px;
+  text-align: center;
+}
+.membership-tiers__item .tier-name {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.membership-tiers__item .tier-price {
+  color: red;
+  font-size: 25px;
+  padding-top: 20px;
+  font-weight: bolder;
+}
+
+.our-ceo {
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 100px;
+}
+.our-ceo__img {
+  background-image: url("../images/home-about-image.jpg");
+  width: 200px;
+  height: 300px;
+}
+.our-ceo__text {
+  max-width: 40%;
+}
+
+.leadership {
+  max-width: 90%;
+  margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+.leadership__text {
+  text-align: center;
+}
+.leadership__team {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.leadership__team__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 100px;
+}
+.leadership__team__item__img {
+  background-image: url("../images/home-about-image.jpg");
+  height: 300px;
+  width: 200px;
+}
+.leadership__team__item__name {
+  margin-top: 25px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 60%;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.contact-info .contact-info-text {
+  max-width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.contact-info__map {
+  background-image: url("../images/map.png");
+  height: 350px;
+  width: 350px;
+  background-position: center;
+}
+
+.visit-us__form h2 {
+  text-align: center;
+}
+.visit-us__form form {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.visit-us__form form input {
+  margin: 10px;
+  text-align: left;
+  border-width: 3px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.visit-us__form form textarea {
+  margin: 10px;
+  text-align: left;
+  border-width: 3px;
+  border-radius: 5px;
+}
+.visit-us__form form button {
+  margin-top: 20px;
+  width: 250px;
+  height: 25px;
+  border-width: 3px;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=styles.css.map */
