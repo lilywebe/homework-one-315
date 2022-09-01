@@ -1,6 +1,6 @@
 .hero{
     
-background-image:  url('../images/hero.jpg');
+background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),url('../images/hero.jpg');
 min-height:500px;
 width:90%;
 margin:0 auto;
@@ -9,6 +9,16 @@ margin-top:50px;
     &__content{
         text-align:center;
         padding-top:200px;
+
+        h1{
+            color:white;
+
+        }
+
+        p{
+            color:red;
+            font-size:20px;
+        }
     }
 
 }

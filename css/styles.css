@@ -17,6 +17,10 @@ h1 {
   font-size: 95px;
 }
 
+h2 {
+  font-size: 40px;
+}
+
 .nav {
   display: flex;
   align-items: center;
@@ -50,7 +54,7 @@ h1 {
 }
 
 .hero {
-  background-image: url("../images/hero.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero.jpg");
   min-height: 500px;
   width: 90%;
   margin: 0 auto;
@@ -60,6 +64,13 @@ h1 {
   text-align: center;
   padding-top: 200px;
 }
+.hero__content h1 {
+  color: white;
+}
+.hero__content p {
+  color: red;
+  font-size: 20px;
+}
 
 .home-about {
   width: 90%;
@@ -68,11 +79,12 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-wrap: wrap-reverse;
 }
 .home-about__image {
   background-image: url("../images/home-about-image.jpg");
   height: 500px;
-  min-width: 40%;
+  width: 600px;
   margin-top: 50px;
 }
 .home-about__content {
@@ -148,9 +160,10 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  width: 90%;
+  max-width: 90%;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 50px;
+  flex-wrap: wrap;
 }
 .amenities__item {
   height: 200px;
@@ -164,6 +177,7 @@ footer {
   padding-right: 10px;
   border-width: 1px;
   border-radius: 20px;
+  margin-top: 50px;
 }
 
 .amenities-title {
@@ -177,6 +191,7 @@ footer {
   margin: 0 auto;
   margin-top: 50px;
   background-color: #50647c;
+  padding: 20px;
 }
 .non-home-hero__content {
   text-align: center;
@@ -191,13 +206,20 @@ footer {
   margin: 0 auto;
 }
 .about-company__img {
-  background-image: url("../images/home-about-image.jpg");
+  background-image: url("../images/training-team.jpg");
   height: 200px;
-  width: 200px;
+  width: 300px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .about-company__content {
   max-width: 30%;
   text-align: center;
+}
+.about-company__content h2 {
+  font-size: 40px;
+  margin-bottom: 25px;
 }
 
 .about-gym {
@@ -210,14 +232,27 @@ footer {
   max-width: 40%;
   margin: 0 auto;
 }
+.about-gym__content h2 {
+  font-size: 40px;
+  padding: 5px;
+  display: inline;
+}
+.about-gym__content p {
+  margin-top: 50px;
+}
+.about-gym__content #home-gym {
+  color: red;
+}
 
 .about-membership {
   max-width: 90%;
+  margin: 0 auto;
   padding-top: 150px;
+  text-align: center;
 }
 .about-membership h2 {
   text-align: center;
-  padding-left: 125px;
+  font-size: 40px;
 }
 
 .membership-tiers {
@@ -260,12 +295,19 @@ footer {
   padding-top: 100px;
 }
 .our-ceo__img {
-  background-image: url("../images/home-about-image.jpg");
-  width: 200px;
+  background-image: url("../images/female-avatar.png");
+  width: 300px;
   height: 300px;
+  background-position: center;
+  background-size: cover;
 }
 .our-ceo__text {
   max-width: 40%;
+  text-align: center;
+}
+.our-ceo__text h2 {
+  font-size: 40px;
+  margin-bottom: 25px;
 }
 
 .leadership {
@@ -294,9 +336,11 @@ footer {
   margin-top: 100px;
 }
 .leadership__team__item__img {
-  background-image: url("../images/home-about-image.jpg");
+  background-image: url("../images/avatar.jpg");
   height: 300px;
   width: 200px;
+  background-position: center;
+  background-size: cover;
 }
 .leadership__team__item__name {
   margin-top: 25px;
@@ -308,17 +352,21 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   max-width: 60%;
   margin: 0 auto;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 .contact-info .contact-info-text {
-  max-width: 40%;
+  max-width: 50%;
   margin: 0 auto;
   text-align: center;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+}
+.contact-info .contact-info-text h2 {
+  font-size: 40px;
 }
 .contact-info__map {
   background-image: url("../images/map.png");
@@ -329,6 +377,7 @@ footer {
 
 .visit-us__form h2 {
   text-align: center;
+  font-size: 40px;
 }
 .visit-us__form form {
   display: flex;
@@ -352,9 +401,13 @@ footer {
 .visit-us__form form button {
   margin-top: 20px;
   width: 250px;
-  height: 25px;
+  height: 50px;
   border-width: 3px;
   border-radius: 5px;
+  font-size: 20px;
+  border-color: #50647c;
+  background-color: #50647c;
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */

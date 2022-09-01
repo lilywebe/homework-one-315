@@ -3,9 +3,10 @@
     align-items: center;
     justify-content: space-evenly;
 
-    width:90%;
+    max-width:90%;
     margin: 0 auto;
-    margin-top:100px;
+    margin-top:50px;
+    flex-wrap: wrap;
 
     
     &__item{
@@ -20,6 +21,7 @@
         padding-right: 10px;
         border-width:1px;
         border-radius:20px;
+        margin-top:50px;
 
 
     }
@@ -29,3 +31,4 @@
     text-align:center;
     margin-top:100px;
 }
+

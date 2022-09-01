@@ -6,12 +6,13 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
     
 
     &__image{
         background-image: url('../images/home-about-image.jpg');
         height:500px;
-        min-width:40%;
+        width:600px;
         margin-top:50px;
     }
 
